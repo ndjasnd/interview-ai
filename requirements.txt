@@ -1,0 +1,18 @@
+# 面试助手依赖列表
+
+# 音频处理
+pyaudio==0.2.14
+numpy>=1.24.0
+
+# 语音识别（腾讯云 ASR）
+tencentcloud-sdk-python>=3.0.1000
+
+# LLM（Qwen / OpenAI 兼容接口）
+openai>=1.0.0
+
+# GUI 界面（可选）
+PyQt6>=6.6.0
+
+# 键盘监听（命令行模式需要）
+pynput>=1.7.0
+
